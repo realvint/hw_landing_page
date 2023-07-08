@@ -1,0 +1,1 @@
+Landing page - homework task for [goodprogrammer](https://goodprogrammer.ru/) course
