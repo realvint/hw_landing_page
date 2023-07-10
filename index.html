@@ -8,6 +8,9 @@
     <title>Ремонт телефонов</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com'>
+    <link href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap' rel='stylesheet'>
   </head>
   <body>
     <div class="container">
@@ -33,10 +36,10 @@
         </div>
       </div>
       <div class="gallery">
-        <div class="photo"></div>
-        <div class="photo"></div>
-        <div class="photo"></div>
-        <div class="photo"></div>
+        <div class="photo"> Разбили и кнопка</div>
+        <div class="photo">фото 1</div>
+        <div class="photo">фото 2</div>
+        <div class="photo">фото 3</div>
       </div>
 
       <div class="text-center mt-3">
@@ -56,12 +59,18 @@
         </div>
       </div>
 
-      <div class="form mt-3 text-center">
-        <input type="text" placeholder="Имя" class="form-input">
-        <input type="text" placeholder="Телефон" class="form-input">
-        <button class="btn">
-          Оставить заявку
-        </button>
+      <div class="form mt-3" style="justify-content: space-around; display: flex">
+        <div>
+          <input type="text" placeholder="Телефон" class="form-input" style="width: 100%; margin-bottom: 1rem ">
+        </div>
+        <div>
+          <input type="text" placeholder="Имя" class="form-input" style="width: 100%; margin-bottom: 1rem">
+        </div>
+        <div>
+          <button class="btn" style="">
+            Оставить заявку
+          </button>
+        </div>
       </div>
 
       <div class="map mt-3 d-flex">
